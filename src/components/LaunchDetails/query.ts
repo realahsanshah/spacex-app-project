@@ -1,6 +1,6 @@
 import gql from 'graphql-tag';
 
-export const QUERY_LAUNCH_PROFILE=gql`
+export const QUERY_LAUNCH_DETAILS=gql`
 query LaunchProfile($id: String!) {
     launch(id: $id) {
       flight_number
