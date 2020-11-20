@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Link
 
-[https://realsashah-bootcamp-spacex-project-app.sur](Surge Link)
+[Surge Link](https://realsashah-bootcamp-spacex-project-app.surge.sh/)
 
 ## Available Scripts
 
