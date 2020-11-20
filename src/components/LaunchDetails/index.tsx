@@ -3,9 +3,17 @@ import { useLaunchProfileQuery } from '../../generated/graphql';
 import LaunchDetails from './LaunchDetails';
 
 
+interface OwnProps{
+    id:number;
+}
 
-const LaunchDetailsContainer = () => {
-    const { data, error, loading } = useLaunchProfileQuery({ variables: { id: '13' } });
+
+const LaunchDetailsContainer = ({id}:OwnProps) => {
+    const { data, error, loading,refetch } = useLaunchProfileQuery({ variables: { id: String(id) } });
+
+    React.useEffect(()=>{
+        refetch();
+    },[id, refetch])
 
     if (loading) {
         return <div>Loading...</div>;
