@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Live Link
 
 [Surge Link](https://realsashah-bootcamp-spacex-project-app.surge.sh/)
+[Netlify Link](https://spacex-by-realsashah.netlify.app/)
 
 ## Available Scripts
 
